@@ -21,8 +21,6 @@ jobs:
 
       - name: Update README.md
         run: |
-          #!/bin/bash
-
           # Start and end markers
           START_MARKER="# Project Directory Structure"
           END_MARKER="<!-- END OF DIRECTORY STRUCTURE -->"
@@ -49,7 +47,6 @@ jobs:
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
-
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
