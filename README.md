@@ -1,7 +1,7 @@
 # Intro
 Studied/Submitted Materials during AIFFEL Research Course.
 
-# File Directory Structure
+# Project Directory Structure
 ```plaintext
 ├── LMS_Project
 │   └── Project1_Make_README.md
