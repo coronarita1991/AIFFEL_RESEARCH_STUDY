@@ -1,0 +1,57 @@
+name: Update README with Directory Structure
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install tree
+        run: sudo apt-get install -y tree
+
+      - name: Generate directory tree
+        run: tree -L 2 > tree_structure.txt
+
+      - name: Update README.md
+        run: |
+          #!/bin/bash
+
+          # Start and end markers
+          START_MARKER="# Project Directory Structure"
+          END_MARKER="<!-- END OF DIRECTORY STRUCTURE -->"
+
+          # Read the existing README.md into a variable
+          README_CONTENT=$(cat README.md)
+
+          # Extract content before and after the markers
+          BEFORE_CONTENT=$(echo "$README_CONTENT" | sed -n "/$START_MARKER/q;p")
+          AFTER_CONTENT=$(echo "$README_CONTENT" | sed -n "1,/$END_MARKER/d;p")
+
+          # Generate the new directory structure content
+          DIRECTORY_STRUCTURE=$(cat tree_structure.txt)
+
+          # Combine the content
+          echo "$BEFORE_CONTENT" > README.md
+          echo "$START_MARKER" >> README.md
+          echo '```plaintext' >> README.md
+          echo "$DIRECTORY_STRUCTURE" >> README.md
+          echo '```' >> README.md
+          echo "$END_MARKER" >> README.md
+          echo "$AFTER_CONTENT" >> README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "Update README.md with latest directory structure"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
