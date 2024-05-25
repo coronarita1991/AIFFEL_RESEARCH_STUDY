@@ -17,7 +17,7 @@ jobs:
         run: sudo apt-get install -y tree
 
       - name: Generate directory tree
-        run: tree -L 2 --ignore-case --prune --noreport -I "tree_structure.txt|.git|.github" > tree_structure.txt
+        run: tree -L 2 --noreport -I "tree_structure.txt|.git|.github" > tree_structure.txt
 
       - name: Update README.md
         run: |
