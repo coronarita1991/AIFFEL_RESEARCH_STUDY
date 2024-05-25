@@ -7,11 +7,12 @@ Project Directory Structure is automatically updated using Github Actions.
 ├── LMS_Project
 │   └── Project1_Make_README.md
 ├── Quests
-│   └── Quest1_20240522
+│   ├── Quest1_20240522
+│   └── README.md
 ├── README.md
 └── tree_structure.txt
 
-4 directories, 2 files
+4 directories, 3 files
 ```
 <!-- END OF DIRECTORY STRUCTURE -->
 
