@@ -8,6 +8,7 @@ Project Directory Structure is automatically updated using Github Actions.
 │   └── Project1_Make_README.md
 ├── Playground
 │   ├── Playground-Modeling_API_and_Experiments.ipynb
+│   ├── README.md
 │   ├── stacked_ticket_classifier.png
 │   ├── ticket_classifier.png
 │   └── ticket_classifier_with_shape_info.png
