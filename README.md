@@ -14,6 +14,7 @@ Project Directory Structure is automatically updated using Github Actions.
 │   └── ticket_classifier_with_shape_info.png
 ├── Quests
 │   ├── Quest1_20240522
+│   ├── Quest2_20240529
 │   └── README.md
 └── README.md
 ```
