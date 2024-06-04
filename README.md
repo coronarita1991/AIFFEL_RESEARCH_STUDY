@@ -15,6 +15,7 @@ Project Directory Structure is automatically updated using Github Actions.
 ├── Quests
 │   ├── Quest1_20240522
 │   ├── Quest2_20240529
+│   ├── Quest3_20240604
 │   └── README.md
 └── README.md
 ```
