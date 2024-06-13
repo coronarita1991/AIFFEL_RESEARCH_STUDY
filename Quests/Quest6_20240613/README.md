@@ -1,5 +1,4 @@
 # AIFFEL Campus Online Code Peer Review Templete
-- 코더 : 코더의 이름을 작성하세요.
 - 리뷰어 : 이현동
 
 
@@ -20,9 +19,14 @@
 
     
 - [ ]  **3. 체크리스트에 해당하는 항목들을 모두 수행하였나요? (문제 해결)**
-    - [ ]  데이터를 분할하여 프로젝트를 진행했나요? (train, validation, test 데이터로 구분)   
+    - [x]  데이터를 분할하여 프로젝트를 진행했나요? (train, validation, test 데이터로 구분)  
+          ![image](https://github.com/DevHDL/AIFFEL_jhlee/assets/163500244/de16310f-3990-4e41-a58d-f80305748a95)
+ 
     - [ ]  하이퍼파라미터를 변경해가며 여러 시도를 했나요? (learning rate, dropout rate, unit, batch size, epoch 등)
-    - [ ]  각 실험을 시각화하여 비교하였나요?
+    - [x]  각 실험을 시각화하여 비교하였나요?  
+          - 텍스트 길이 분석 내용 시각화  
+          ![image](https://github.com/DevHDL/AIFFEL_jhlee/assets/163500244/05ac8cc8-5b27-4b6c-b060-3db505496618)
+
     - [ ]  모든 실험 결과가 기록되었나요?
 
         
