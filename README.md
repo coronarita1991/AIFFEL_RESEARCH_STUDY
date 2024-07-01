@@ -4,7 +4,6 @@ Project Directory Structure is automatically updated using Github Actions.
 # Project Directory Structure
 ```plaintext
 .
-├── Ablation_Study_CIFAR_10.ipynb
 ├── LMS_Project
 │   └── Project1_Make_README.md
 ├── Playground
@@ -22,6 +21,7 @@ Project Directory Structure is automatically updated using Github Actions.
 │   ├── Quest5_20240612
 │   ├── Quest6_20240613
 │   ├── Quest7_20240620
+│   ├── Quest8_20240701
 │   └── README.md
 └── README.md
 ```
