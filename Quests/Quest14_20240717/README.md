@@ -1,3 +1,7 @@
+reviewer: 이종민
+reviewee: 이정훈
+
+
 - [x] **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요? (완성도)**
 
   - 문제에서 요구하는 최종 결과물이 첨부되었는지 확인
@@ -26,4 +30,5 @@
   - [x] 아쉬운 점
   - [x] 느낀 점
   - [x] 어려웠던 점
+  
  ![image](https://github.com/user-attachments/assets/567c715c-20de-44ae-91b8-41d9af1a9ea4)
