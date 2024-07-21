@@ -4,7 +4,6 @@ Project Directory Structure is automatically updated using Github Actions.
 # Project Directory Structure
 ```plaintext
 .
-├── Image_Augmentation_Project.ipynb
 ├── LMS_Project
 │   └── Project1_Make_README.md
 ├── Playground
