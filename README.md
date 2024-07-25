@@ -13,8 +13,8 @@ Project Directory Structure is automatically updated using Github Actions.
 │   ├── ticket_classifier.png
 │   └── ticket_classifier_with_shape_info.png
 ├── Quests
+│   ├── Aiffel_MainQuest3
 │   ├── MainQuest1_20240621
-│   ├── MainQuest3_CAM_paper_transition_NeurIPS_template.pdf
 │   ├── Quest10_20240705
 │   ├── Quest11_20240709
 │   ├── Quest12_20240711
