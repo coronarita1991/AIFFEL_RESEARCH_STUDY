@@ -33,7 +33,8 @@ Project Directory Structure is automatically updated using Github Actions.
 │   ├── Quest8_20240701
 │   ├── Quest9_20240703
 │   └── README.md
-└── README.md
+├── README.md
+└── 모델_평가와_배포.ipynb
 ```
 <!-- END OF DIRECTORY STRUCTURE -->
 
